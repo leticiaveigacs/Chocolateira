@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Pacifico&display=swap");
+
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    --largura: 1000px;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+
+nav {
+  background-color: #d1ae8d;
+  max-width: var(--largura);
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #333333;
+}
+
+nav ul li a:hover {
+  background-color: orangered;
+  color: white;
+}
